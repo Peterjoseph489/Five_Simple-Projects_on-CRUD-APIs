@@ -1,25 +1,15 @@
 {
-  "name": "blog",
+  "name": "contactbook",
   "version": "1.0.0",
-  "description": "A blog API where users can do CRUD operations",
-  "main": "server.js",
+  "description": "Contact Book API - CRUD Operation",
+  "main": "index.js",
   "scripts": {
-    "node": "node server.js",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": [
-    "node",
-    "node",
-    "mongodb",
-    "mongoose",
-    "express"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.2.1"
-  },
   "devDependencies": {
     "nodemon": "^2.0.22"
   }
